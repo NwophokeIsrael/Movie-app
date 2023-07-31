@@ -1,38 +1,116 @@
-.App {
+body{
+  background-color: #f4dfdf;
+}
+
+.App{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img{
+  max-width: 100%;
+  height: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title{
+  font-size: 45px;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(69, 20, 247);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.movie-list{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.movie-card{
+  max-width: 300px;
+  padding: 20px;
+  margin: 20px;
+  border: 3px solid #4706f8;
+  border-radius: 17px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.desc{
+  font-size: 17px;
+  font-style: italic;
+  /* font-weight: 500; */
+  color: rgb(1, 1, 22);
+  opacity: 0.7;
+}
+
+.rating{
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  font-style: italic;
+  color: rgb(248, 15, 61);
+}
+
+.filter{
+  margin: 20px;
+  padding-bottom: 10px;
+}
+
+input{
+  background-color: #dfedf5;
+  padding: 5px;
+  margin-right: 10px;
+  width: 15%;
+  border: none;
+  border: 2px solid #1b1b1b;
+}
+
+button{
+  padding: 5px 15px;
+  font-size: 15px;
+  font-family: serif;
+  cursor: grab;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #7fc281;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 4px #bcb7b7;
+}
+button:hover{
+  background-color: #1f7c22
+}
+button:active{
+  background-color: #27872c;
+  box-shadow: 0 2px #3d3c3c;
+  transform: translateY(2px);
+}
+
+.add{
+  color: rgb(62, 16, 245);
+  font-family: serif;
+}
+
+.form{
+  padding-bottom: 60px;
+}
+.type{
+  color: crimson;
+}
+
+.movie-details{
+  background-color: #b8caf2;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(211, 53, 53, 0.1);
+  margin-top: 20px;
+}
+
+.movie-details h2{
+  color: #c41818;
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+
+.movie-details p{
+  color: #666;
+  font-size: 1rem;
 }
