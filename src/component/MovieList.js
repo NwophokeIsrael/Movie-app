@@ -8,7 +8,7 @@ return (
                 <MovieCard key={index} movie={movie} />
         ))}
         </div>
-    );
+);
 };
 
 export default MovieList;

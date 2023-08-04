@@ -114,3 +114,57 @@ button:active{
   color: #666;
   font-size: 1rem;
 }
+iframe{
+  border-radius: 7px;
+}
+
+/* Styling the description page */
+
+.movie-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e2c2c2;
+}
+
+.container {
+  border-radius: 10px;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.desc-title {
+  color: #2309e6;
+  margin-bottom: 10px;
+}
+
+.desc-page{
+  color: #3803b4;
+  margin-bottom: 20px;
+}
+
+.iframe {
+  width: 100%;
+  height: 400px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.link{
+  display: block;
+  text-align: center;
+  color: #f70b0b;
+  font-size: 20px;
+  font-family: serif;
+  margin-top: 20px;
+}
+
+.not-found{
+  font-size: 50px;
+  color: #c41818;
+  font-style: italic;
+}
